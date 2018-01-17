@@ -1,3 +1,5 @@
+import Codechef.MaximumScore;
+
 import java.util.Random;
 
 public class Trial {
@@ -30,9 +32,8 @@ public class Trial {
         KalmanFilter.Kalman(1.0,0,3,8.8);
         */
 
-        int a[] ={8};
-        int b[] ={7};
-        int c[] = HugeMultiply.multiply(a,b);
-        System.out.print(c[0]+""+c[1]);
+        int a[] ={8,5,8,6,3,8};
+        int b = MaximumScore.lessMax(a,2);
+        System.out.println(b);
 
     } }
